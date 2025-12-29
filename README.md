@@ -1,15 +1,42 @@
-Task 1: News Topic Classifier Using BERT
+📰 Task 1: News Topic Classification Using BERT
+🎯 Objective
 
-Objective of the Task
+To build a robust Natural Language Processing (NLP) model capable of classifying news headlines into four categories:
 
-The goal was to build a robust Natural Language Processing (NLP) model to classify news headlines into four distinct categories: World, Sports, Business, and Sci/Tech. This task focused on leveraging state-of-the-art Transformer models for text classification.
+World
 
-Methodology / Approach
-Dataset: Utilized the AG News Dataset from Hugging Face.
-Preprocessing: Implemented tokenization using BertTokenizer, including padding and truncation to handle varying headline lengths.
-Architecture: Fine-tuned the bert-base-uncased model using the Hugging Face Trainer API.
-Optimization: Employed Transfer Learning to adapt the pre-trained BERT weights to the specific news classification task.
-Deployment: Created a live interaction interface using Gradio to allow users to input headlines and see real-time predictions.
-Key Results or Observations
-Performance: The model achieved high accuracy and a strong F1-score, significantly outperforming traditional machine learning models (like Naive Bayes).
-Observation: Fine-tuning BERT proved that "bidirectional context" is crucial for understanding short headlines where keyword-based approaches often fail.
+Sports
+
+Business
+
+Sci/Tech
+
+The task emphasizes the use of state-of-the-art Transformer models for text classification.
+
+🛠 Methodology / Approach
+
+Dataset: AG News Dataset (Hugging Face)
+
+Preprocessing:
+
+Tokenization using BertTokenizer
+
+Applied padding and truncation to manage variable headline lengths
+
+Model Architecture:
+
+Fine-tuned bert-base-uncased using the Hugging Face Trainer API
+
+Optimization:
+
+Leveraged Transfer Learning to adapt pre-trained BERT weights for news classification
+
+Deployment:
+
+Built a live prediction interface using Gradio for real-time headline classification
+
+📊 Key Results & Observations
+
+Performance: Achieved high accuracy and strong F1-score, outperforming traditional ML models such as Naive Bayes
+
+Insight: Bidirectional context in BERT is crucial for understanding short headlines where keyword-based models fail
