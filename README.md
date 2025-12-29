@@ -1,6 +1,9 @@
 Task 1: News Topic Classifier Using BERT
+
 Objective of the Task
+
 The goal was to build a robust Natural Language Processing (NLP) model to classify news headlines into four distinct categories: World, Sports, Business, and Sci/Tech. This task focused on leveraging state-of-the-art Transformer models for text classification.
+
 Methodology / Approach
 Dataset: Utilized the AG News Dataset from Hugging Face.
 Preprocessing: Implemented tokenization using BertTokenizer, including padding and truncation to handle varying headline lengths.
